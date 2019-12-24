@@ -24,12 +24,13 @@ public class Task13 {
      * 4. Метод getWeight должен правильно переводить вес тела в Ньютонах на Земле в вес этого же тела на Луне, и возвращать это значение.
      */
 
-    public static void main(String[] args) {
-        System.out.println(getWeight(888));
-    }
+    public static void main(String[] args){
+
+     System.out.println(getWeight(888));
+}
 
     public static double getWeight(int earthWeight) {
-        //напишите тут ваш код
-        return 0D;
+        double luneWeight=0.17*earthWeight;
+        return luneWeight;
     }
 }

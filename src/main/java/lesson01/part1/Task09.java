@@ -21,12 +21,17 @@ public class Task09 {
      * 6. Что будет если написать sout и нажать tab?
      */
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         System.out.println(sumDigitsInNumber(546));
     }
 
     public static int sumDigitsInNumber(int number) {
-        //напишите тут ваш код
-        return 0;
+        int s=0;
+        while (number>0){
+            s=s+(number%10);
+            number=number/10;
+
+        }
+        return s;
     }
 }

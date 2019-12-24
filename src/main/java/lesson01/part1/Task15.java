@@ -16,10 +16,12 @@ public class Task15 {
      * 5. Вы слышали что-нибудь о классе Math?
      */
 
-    public static int number = 25;
 
-    public static void main(String[] args) {
-        //Измените код
-        System.out.println(Math.cos(number));
+
+        public static int number = 25;
+
+        public static void main(String[] args) {
+            int n=(int) Math.pow(number,2);
+            System.out.println(n);
     }
 }

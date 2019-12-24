@@ -22,13 +22,13 @@ public class Task08 {
      * 5. Метод getMetreFromCentimetre должен правильно возвращать количество полных метров в centimetre.
      */
 
-    public static void main(String[] args) {
-        System.out.println(getMetreFromCentimetre(243));
-    }
+    public static void main(String[] args){System.out.println(getMetreFromCentimetre(243));
+}
 
     public static int getMetreFromCentimetre(int centimetre) {
+        int metr= centimetre/100;
         //напишите тут ваш код
 
-        return 0;
+        return metr;
     }
 }
