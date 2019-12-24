@@ -1,8 +1,5 @@
 package lesson02.part02;
 
-import java.util.Date;
-import java.util.zip.DataFormatException;
-
 /**
  * Ввести с клавиатуры строку name.
  * Ввести с клавиатуры дату рождения (три числа): y, m, d.
@@ -24,6 +21,7 @@ import java.util.zip.DataFormatException;
 
 public class Task43 {
     public static void main(String[] args) throws Exception {
+        //напишите тут ваш код
 
     }
 }
